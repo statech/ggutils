@@ -101,9 +101,7 @@ corr_df <- mpg %>%
     group_by(drv) %>%
     summarise(corr = paste('Correlation:', round(cor(hwy, displ), 3)))
 # add the calculated correlation to the scatter plot
-q_with_text <- gg_add_text(
-    q, 'topright', text = corr_df$corr, on_border = FALSE
-)
+q_with_text <- gg_add_text(q, 'topright', text = corr_df$corr, on_border = FALSE)
 ```
 ![Scatter plot with text](man/figures/scatter_with_text.png)
 
