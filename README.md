@@ -1,4 +1,4 @@
-# CommonPlots
+# ggutils
 
 Overview
 --------
