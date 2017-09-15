@@ -73,7 +73,7 @@ scatter_plot_no_legttl_grids <- gg_remove_grid(scatter_plot_no_legttl)
 ![Scatter plot without legend title and grids](man/figures/scatter_plot_no_legttl_grids.png)
 
 ```
-# equivalently, one can use `gg_remove` all in once
+# equivalently, one can use `gg_remove` to remove all in once
 scatter_plot_no_legttl_grids <- gg_remove(scatter_plot, c('legend_title', 'grid'))
 ```
 
