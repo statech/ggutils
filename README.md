@@ -80,7 +80,7 @@ scatter_plot_no_legttl_grids <- gg_remove(scatter_plot, c('legend_title', 'grid'
 ### Add elements
 
 Functions in this category will add elements to an existing ggplot2 object. One
-good example is an implementation of add text to a plot in a similar way to
+good example is an implementation of adding text to a plot in a similar way to
 `graphics::legend()`. In particular, with the help of `gg_retrieve_range()`,
 axis range of an existing ggplot2 object can be conveniently retrieved and
 furthered used in the implementation of text location that is specified by
