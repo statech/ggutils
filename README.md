@@ -23,8 +23,7 @@ the action applied onto a passed ggplot2 object
 - Remove elements
 - Add elements
 
-###
-Retrieve information
+### Retrieve information
 
 Important aspects of a ggplot2 object such as axis range can be useful for later
 use. `ggutils` contains utility functions to extract information of interest
@@ -50,8 +49,7 @@ print(gg_retrieve_range(boxplot_))  # Retrieve axis range in all panels
 4   8   0.4   5.6  10.4  45.6
 ```
 
-###
-Remove elements
+### Remove elements
 
 Functions in this category remove elements from a ggplot2 object with function
 names starting with `gg_remove`. Examples are provided below to help illustrate.
@@ -79,8 +77,7 @@ scatter_plot_no_legttl_grids <- gg_remove_grid(scatter_plot_no_legttl)
 scatter_plot_no_legttl_grids <- gg_remove(scatter_plot, c('legend_title', 'grid'))
 ```
 
-###
-Add elements
+### Add elements
 
 Functions in this category will add elements to an existing ggplot2 object. One
 good example is an implementation of add text to a plot in a similar way to
