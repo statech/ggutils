@@ -114,4 +114,4 @@ The help page of ggutils package can be accessed by `help(package = 'ggutils')`.
 Contact
 -------
 
-If you have any questions or encounter any bugs, please contact the author (Feiyang Niu, Feiyang.Niu@gilead.com)
+If you have any questions or encounter any bugs, please contact the author (Feiyang Niu, statech.forums@gmail.com)
